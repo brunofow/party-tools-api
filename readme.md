@@ -12,9 +12,15 @@
 
 # Parâmetros
 
-## Calc
+## /foods
 
-{ 
+query: {
+ foodType
+}
+
+## /calc
+
+body : { 
   **person, 
   children, 
   foods, 
