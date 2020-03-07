@@ -9,7 +9,8 @@ module.exports = {
     const pizza = Foods.pizzaFood;
 
     const { foodType } = req.query;
-    let foods = null;
+
+    let foods = [];
     
     switch (foodType) {
       case 'barbecue':
